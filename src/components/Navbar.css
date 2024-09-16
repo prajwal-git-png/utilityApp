@@ -1,0 +1,155 @@
+.navbar {
+    background-color: #fafafa; /* Green background */
+    overflow: hidden;
+  }
+  ul {
+    list-style-type: square; 
+    padding: 0;
+    width: 400px;
+    color: #212121;
+    margin: 0;
+}
+
+.navbar a {
+    
+    display: block;
+    color: #080000;
+    text-align: start;
+    list-style:circle;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    border-radius: 50px;
+    color: #ffffff;
+    background-color: #00dd07c8; /* Darker green on hover */
+  }
+  
+  .navbar a.active {
+    background-color: #555; /* Active link */
+    color: white;
+  }
+
+  .image-compressor-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-preview {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+
+  
+  .upload-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .dounload-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 50px;
+  }
+  .input-wrapper input {
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 13em;
+    margin-left: 20px;
+    border-radius: 1rem;
+    color: rgb(7, 102, 255);
+    box-shadow: 0 0.4rem #b0dfff;
+    /* cursor: pointer; */
+  }
+  
+  .input-wrapper input:focus {
+    outline-color: lightcoral;
+  }
+  /* From Uiverse.io by zjssun */ 
+/* From Uiverse.io by gharsh11032000 */ 
+.button {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 24px;
+    font-size: 18px;
+    margin-left: 20px;
+    color: rgb(208, 143, 1);
+    border: 2px solid rgb(193, 163, 98);
+    border-radius: 34px;
+    background-color: transparent;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+    overflow: hidden;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 70px;
+    height: 50px;
+    border-radius: inherit;
+    scale: 0;
+    z-index: -1;
+    background-color: rgb(193, 163, 98);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .button:hover::before {
+    scale: 3;
+  }
+  
+  .button:hover {
+    color: #212121;
+    scale: 1.01;
+    box-shadow: 0 1px 30px rgba(193, 163, 98,0.4);
+  }
+  
+  .button:active {
+    scale: 1;
+  }
+  input {
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 13em;
+    margin-left: 20px;
+    border-radius: 1rem;
+    color: lightcoral;
+    box-shadow: 0 0.4rem #dfd9d9;
+    /* cursor: pointer; */
+  }
+  
+  
+  
+
+  input[type="file"]::-webkit-file-upload-button {
+    border: none;
+    background-color: #007bff;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  
+  input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: #0056b3;
+  }
+  
+  h2{
+    text-align: center;
+  }
